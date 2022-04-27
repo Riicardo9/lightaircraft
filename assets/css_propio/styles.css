@@ -1,0 +1,60 @@
+/* Navbar */
+
+/* se usa para que cuando colocas el cursosr en el navbar, se mira el contenido señalado */
+/* html {
+    scroll-behavior: smooth;
+} */
+
+
+.img_logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;  /* para que la imagen se contenga en cierto tamaño se adapte al espacio*/
+    object-position: center; /* que muetra una parte especifica de la imagen (centro arriba abajo derecha izq) */
+}
+
+
+.img-carrusel{
+
+    height: calc(100vh - 76px);  /* 50 vh; */
+    /* height: 50vh; */
+    object-fit: cover; 
+    object-position: center;
+}
+
+
+
+.pantalla{
+    position: absolute; /* al hacerlo absoluto se coloca en el mismo espacio de su contenedor (se va hacia atras) */
+    z-index: 1; /* para traerlo al frente see usan las capas */
+    color: white;
+    width: 100%;
+    height: calc(100vh - 76px);
+    
+    display:flex;
+    justify-content: center;/*  alinea h */
+    align-items: center; /* alinea v */
+    text-align: center;
+    
+    }
+    
+    .cuadro{
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50vw;
+    }
+
+
+
+.img-card{
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.videoIframe{
+width: 100%;
+height: 150px;
+}
+
