@@ -1,8 +1,8 @@
 
 /* ScrollReveat */
-ScrollReveal().reveal('.imagenes',{delay: 500});
-ScrollReveal().reveal('.video',{delay: 500});
-ScrollReveal().reveal('.adopta',{delay: 500});
+ScrollReveal().reveal('.imagenes',{delay: 300});
+ScrollReveal().reveal('.video',{delay: 300});
+ScrollReveal().reveal('.adopta',{delay: 300});
 
 function updateProgressBar(){
     const {scrollTop, scrollHeight} = document.documentElement;

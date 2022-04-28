@@ -74,3 +74,9 @@ height: 150px;
     height: 150px;
 }
 
+.img-carrusel2{
+    height: 30vh;
+    width: 50vh;
+    object-fit: cover; 
+    object-position: center;
+}
