@@ -5,7 +5,6 @@
     scroll-behavior: smooth;
 } */
 
-
 .img_logo{
     width: 200px;
     height: 50px;
@@ -13,6 +12,14 @@
     object-position: center; /* que muetra una parte especifica de la imagen (centro arriba abajo derecha izq) */
 }
 
+#progress-bar {
+    --progress: 0;
+    height: 6px;
+    width: var(--progress);
+    background-color: var(--dark);
+    align-items: center;
+
+  }
 
 .img-carrusel{
 
@@ -21,8 +28,6 @@
     object-fit: cover; 
     object-position: center;
 }
-
-
 
 .pantalla{
     position: absolute; /* al hacerlo absoluto se coloca en el mismo espacio de su contenedor (se va hacia atras) */
@@ -38,14 +43,12 @@
     
     }
     
-    .cuadro{
+.cuadro{
     background-color: rgba(0, 0, 0, 0.432);
     padding: 20px;
     border-radius: 10px;
     width: 50vw;
     }
-
-
 
 .img-card{
     height: 200px;
@@ -59,7 +62,15 @@ height: 150px;
 }
 
 .minCarrusel{
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    object-fit: cover; 
+    object-position: center
+}
+
+.img-topVendidos{
+    width: 300px;
+    height: 150px;
 }
 
