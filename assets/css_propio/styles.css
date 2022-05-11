@@ -90,3 +90,13 @@
     width: 300px;
     height: 150px;
 }
+
+.alert-danger{
+    display: none;
+}
+
+.msj-error{
+    position: absolute;
+    margin: 0;
+    color: rgb(241, 98, 98);
+}
